@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythonwsprmapviewer"
+version = "1.0.1"
+authors = [
+  { name="SV1EEX", email="sv1eex@hotmail.com" },
+]
+description = "A Python application for visualizing live WSPR spots on an interactive map."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Communications :: Ham Radio",
+]
+dependencies = [
+    "tkintermapview",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/z1000biker/pythonwsprmapviewer"
+"Bug Tracker" = "https://github.com/z1000biker/pythonwsprmapviewer/issues"
